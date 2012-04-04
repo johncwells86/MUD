@@ -34,9 +34,11 @@ warranty, and with no claim as to its suitability for any purpose.
 #include <stdexcept>
 #include <fstream>
 #include <iostream>
+#include <algorithm>
 #include <sstream>
 #include <ios>
 #include <iterator>
+#include <limits>
 
 using namespace std; 
 
@@ -1431,7 +1433,7 @@ void LoadRooms ()
      
       } // end of getting each direction      
     } // end of read loop
-  
+ S 
 } // end of LoadRooms
 
 // build up our commands map and connection states
