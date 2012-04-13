@@ -1,0 +1,1 @@
+-- World loader -- Hard coded list of functions suitable for world creation.
