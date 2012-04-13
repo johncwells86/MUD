@@ -50,7 +50,6 @@ function get_all(root, rel)
    local visited = { }
 
    while next(to_visit) do
-      --
 
       local node = table.remove(to_visit, 1)
 
@@ -101,9 +100,9 @@ function test()
 
 
    results =  get_all_children("one")
-   print("Children", unpack(results) )
+   print("Children of one \t", unpack(results) )
    results = get_all_parents("four")
-   print(unpack(results) )
+   print("Parents of four \t", unpack(results) )
 
    --test is_a_kind_of
    --test there_is_a
